@@ -1,0 +1,5394 @@
+fileFormatVersion: 2
+guid: d39f751976b0494459726e752881d3bc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 276
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1efcf98e0c4f15c4d9feed08bfe8687c
+      internalID: -1443795009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 276
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7be876a8397a2244b463be3a96ff923
+      internalID: 1979838756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_2
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 276
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e692660559c1649800b51630512788
+      internalID: 1110361357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_3
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 276
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bab918c4bb68dd499c9ac4e05418183
+      internalID: 499989014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_4
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 276
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add6335eb9050c94f90a8a8899fa1d18
+      internalID: -336134533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_5
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 275
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e11df836e92cd49a92f47d929b2da6
+      internalID: 696619178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_6
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 275
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e32bbc691e94bd843801ffa524535462
+      internalID: 747839866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_7
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 275
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff3a4bb00dfb9c41bf07f2f0e2f30ee
+      internalID: -1530457939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_8
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 275
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc36bf007c781642b024f654dd03b2c
+      internalID: 498381234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_9
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 275
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d990bbce34f1ab479ef948a973ef7ed
+      internalID: -394187506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_10
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 282
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f25f6e9fd27fa47bcf92d3a2c1bd36
+      internalID: 735619163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_11
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 282
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a2c0504fc23d9f47a167cfe554ada69
+      internalID: -1537297459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_12
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 282
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e961f17533ff9458a4ccb8f3ea0f1a
+      internalID: -1766093574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_13
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 282
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2b2700bc4e2a44ca90f34b5c14b813
+      internalID: -182651644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_14
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 282
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69ab048d9b4b7240914590ad6b258d8
+      internalID: 537718015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_15
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 282
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f083aae011576954fad146c8ab79707d
+      internalID: -1218167301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_16
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 282
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d62ab62cdf94343ba200e20f3c4347
+      internalID: -407500262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_17
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 282
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13b4fe6dd9e06545a441372238c7585
+      internalID: 1835222986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_18
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 282
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9e819f96caa5e44a07a72b16b6281b
+      internalID: 1148262908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_19
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 281
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f74254a2dd17ab4cb4e2781660d8c5a
+      internalID: 2017419865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_20
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 281
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a5dcb51fec10a4e896bd6af71bf21d
+      internalID: 1214765808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_21
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 286
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1d6baf83ee747459225cb756219e48
+      internalID: 1496581912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_22
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 286
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb400671c9a11c439af69192167068f
+      internalID: 548441103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_23
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 286
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0882fbf1b655324292e636eeb9d288d
+      internalID: -1759517158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_24
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 286
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d13999a82b84b449d8eec93ea00df0
+      internalID: -351042147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_25
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 286
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef347bcad933d8545a823c597395a138
+      internalID: -2062907291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_26
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 286
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b9faaf8f8ecdb4a85cf2268f1ad9b9
+      internalID: -1026437617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_27
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 250
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0266c3d2e7c70784eac95b54f6198750
+      internalID: -894787673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_28
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 250
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da58c41e87f18d499cdcb633c956315
+      internalID: -1771970646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_29
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 250
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824d323e998a52b4290ac394f25b7537
+      internalID: 1176601004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_30
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 250
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e3d49723af877242b205ac2664ced22
+      internalID: 32933433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_31
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 249
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8585bd74c652d6c48826db745aa04af4
+      internalID: -1944168007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_32
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 249
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b5c9627d7077843a2800a7f6ea3484
+      internalID: 1407532043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_33
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 249
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17fc815e02e030147a823aabe6a4adb7
+      internalID: -947410008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_34
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 249
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf1dbaced95e034b9c3caa0e0c08225
+      internalID: -767382481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_35
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 262
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9ae38714294d44593b39d7efab7bec
+      internalID: 554633948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_36
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 262
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e1a20ad3b4dad45b4138677ca05e8b
+      internalID: 82646489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_37
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 262
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d3f11f45b2f47409ebd0f05e4d5caf
+      internalID: 1299779026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_38
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 262
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21c5ea06309a7641b8ad10937aff8ad
+      internalID: -670758556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_39
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 262
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02fa8c7b1fb7cf04487dc288521ca7bd
+      internalID: -378539808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_40
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 268
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b5b317f1cca874691463294c3d7734
+      internalID: 1143855435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_41
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 268
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dffc6819244f6945bea5d9a5ddf366c
+      internalID: 463630984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_42
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 268
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ac7ca9b8520264fa4e3604d60e04a9
+      internalID: 743765723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_43
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 268
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0783eef868179488efa0827cba3230
+      internalID: 1332527266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_44
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 267
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0852ebd7009725f44953f18598fc2b97
+      internalID: 32820109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_45
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 267
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4379529882ac4b438ec4ebf3cb68128
+      internalID: 2082175320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_46
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 270
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779f35be7abe5ee45b0c86541772d2d7
+      internalID: 752388356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_47
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 270
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e953b74d8bce38e4a92a4b61cc26da11
+      internalID: -1498546752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_48
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 270
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a279e80997347f478382706acb06f27
+      internalID: -396890230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_49
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 270
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4454415a36f8942aa047532cec240b
+      internalID: -889462192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_50
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 270
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a3fa0742f0b1884eaf257edf8cdc50e
+      internalID: 731076821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_51
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 270
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0def57140fdaa9a488a7ab4962076c79
+      internalID: -1621592978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_52
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 238
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87745503c88e6b74794c3fa217a2ea55
+      internalID: 1597351174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_53
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 238
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66cd653da59ed542918f0db56321ef6
+      internalID: 311999339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_54
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 238
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec4bccf63c965f42b048a39ea98ac1c
+      internalID: -1278373473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_55
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 254
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e2756d6df269144923a77ade3b196e
+      internalID: -791106341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_56
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 254
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6f1b6e4c20fd944a5579b98ead0ff9
+      internalID: -463372486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_57
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 254
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88dcab7c4a69575489d289aca70af370
+      internalID: 2018459662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_58
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 254
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58489b365a7322c42af8190036b954e5
+      internalID: 1048008669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_59
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 254
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810df01597f539a4299547bb10e6e62d
+      internalID: -2081961902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_60
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 240
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4817070b1d94ef43af4681bba2c23f8
+      internalID: -1174875778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_61
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 240
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4302c3853511e64086d07f66a9ba6b3
+      internalID: 1097496873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_62
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 240
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397da8976f10460458c5ad4bc7e315db
+      internalID: 991050260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_63
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 240
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d966bf2ef307eab43b9ea333e5d4b7d2
+      internalID: 539292615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_64
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 240
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd042fc70f7c467438c8a9b9c7b30a1d
+      internalID: 1543278402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_65
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 238
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836264555dc4b3840b81e36c99a5f14a
+      internalID: 1408981980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_66
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 238
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0851f24825c895741a36152c5ad7a6ac
+      internalID: 1754730922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_67
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 238
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ae5a670cdb7934da84e0fb89792c11
+      internalID: -1087401560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_68
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 238
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb80d2d7fbc38a4da77ce24eb0ac77a
+      internalID: 1848742047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_69
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 238
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71aa55cc1a116ea4aaea2aec6914c112
+      internalID: 117593758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_70
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 238
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10096ee3e8833f6458523b451e4e4f2a
+      internalID: -361569189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_71
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 238
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb38ea70565a414888ba8fba1bf287d
+      internalID: -1822557905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_72
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 238
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ddd4a2a0a24ff04ea44515c884d7f47
+      internalID: 1828199113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_73
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 219
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9c1632db73bb244b06bc4091021f4d
+      internalID: -345969476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_74
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 219
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1071a99d8b6851f469fb7a65e8fc7ca9
+      internalID: -1655824779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_75
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 219
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24ee59db305549498e9331dc322a6bf
+      internalID: -318701803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_76
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 219
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3eb1b746fe6a246864a9aeebc3cf98
+      internalID: -1627871649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_77
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 219
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb48666286b39064ea3f4205bbd60cd0
+      internalID: -616086967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_78
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 218
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aadb43e72d4e2434a8d241f319f86ca2
+      internalID: -994837917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_79
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 218
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215daf4be54b6274b8682c5abb4724ad
+      internalID: 1974989016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_80
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 218
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4cc0b5ae9871340a8271923c00e084
+      internalID: -1866884255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_81
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 218
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc68e90564e1be488d8f882d8f665fd
+      internalID: -1119788152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_82
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 218
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680df7a807e162a40b8d7f84202823c7
+      internalID: 271471388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_83
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 226
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aca518d6d78a7b408b18a291d2439a9
+      internalID: 1742435944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_84
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 226
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc0060890797cb419b92fd78fdea2c2
+      internalID: -165412811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_85
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 226
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c2ef36f5ddbb1428e969c7d97ba0a8
+      internalID: -1810504509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_86
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 226
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb4309b6574aee4a8d633ef7fd85466
+      internalID: 120091437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_87
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 226
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618f59127d56d644592df1a265e1b2c8
+      internalID: 386676726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_88
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 224
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8035049f7cbbfcf4985c4d0a5d6434d3
+      internalID: 297968183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_89
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 224
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b868c53fb7f45f45b2eb6196ccf6545
+      internalID: 957137505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_90
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 224
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e0043caf0011545b7fdd9c667fe258
+      internalID: 1056833099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_91
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 224
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e921eb612d3d4f4b9658953729b81c3
+      internalID: 1857624532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_92
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 224
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3e36222ad0d5b49a45a160ee59e88b
+      internalID: 152315666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_93
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 224
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfba07a33181b2d4eb3c83a533cf97be
+      internalID: 1489423529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_94
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 222
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f0a6bebf73a7448956a09b67e1d3b1
+      internalID: -1059476395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_95
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 222
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0061e1fd060f423439c4cfca00f28410
+      internalID: 1776963415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_96
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 222
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e93f8e79e72ef4ba0bda36747d2502
+      internalID: 831050000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_97
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 222
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4557caaced3da449aa5caae322a752
+      internalID: -1902560075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_98
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 200
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23366e1669d529341abcaeba500c5d4d
+      internalID: -1132466964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_99
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 200
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d318cdc422f0024cae333ed157a4af1
+      internalID: 774506472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_100
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 200
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8cb377b50145ea4ca74b21078e82fac
+      internalID: -1448752707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_101
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 200
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed76ec8a7cb93324783edcff1ea519e3
+      internalID: 460511203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_102
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 199
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a452990d8a6c741a515185c0babccf
+      internalID: -88609509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_103
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 199
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d182786e46e42384989969193211efe4
+      internalID: 236589331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_104
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 199
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3ef2c25d510bc4cba015e20328bec8
+      internalID: 733787581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_105
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 199
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1439319292731c45af3e72bf716c149
+      internalID: 1840000035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_106
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 202
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f242df4048d624c45833d854cd472ef6
+      internalID: 1585477626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_107
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 202
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160e7350a5e1e6546a6818ef81b09c76
+      internalID: -913848943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_108
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 202
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f907d371a32b64386981ebc4ff4e39
+      internalID: -582150539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_109
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 202
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799f5a77dbbd031419307b1f075ffcad
+      internalID: 248418099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_110
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 202
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21ea1940a4ab5241a1707a8e25b0313
+      internalID: 1456801226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_111
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 202
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5694cf5c1b617fa45957e9e53f93cffc
+      internalID: 1694974194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_112
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 202
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da311902a286a3f4a8be1629f4c70cae
+      internalID: -2025887898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_113
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 202
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9077b7ad01af61847b98131759fd5be6
+      internalID: -249466101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_114
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 206
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648345b4d2fcba84293a537b86af0101
+      internalID: 755462585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_115
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 206
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f3ec8bfe4272d47b60501efaa711ef
+      internalID: -704978061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_116
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 206
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b378e22cc6008a4fbd3013ea6a4f8e2
+      internalID: -1483838723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_117
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 206
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aabcbe6f745f40f46af3696060e11966
+      internalID: 1675099229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_118
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 188
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a409e68ed4728748a23c21b5dc4c58f
+      internalID: 608512375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_119
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 188
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d794e2f6115f9845bc84387a2d1ed49
+      internalID: -1285131118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_120
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 188
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa4a58fdf6776c4b947b62320fccd36
+      internalID: -1359394592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_121
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 188
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb66ed13819c0a4da6883837d968d2c
+      internalID: 398911872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_122
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 188
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5d80c5ef6e2f242a9cc3583afe4147
+      internalID: 427871341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_123
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 188
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e86105580a12424bb519bc34995579d
+      internalID: -669735297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_124
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 188
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70d49555897cc14cbde3ce893f11b27
+      internalID: 352200140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_125
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 188
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee0408ae069e5f47810d537187f8d8e
+      internalID: -511493301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_126
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 190
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a13882aa2744a4686c96f7069eea9f
+      internalID: 75012315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_127
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 190
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62993fbbf633e640b03459b73f9847e
+      internalID: 1987048390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_128
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 190
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7195aac3e0256428f4e4141172d66c
+      internalID: -644731712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_129
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 190
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4bab4d0184e0984490dbef71d7c2c91
+      internalID: -1708930152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_130
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 164
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c526162ca863c4943918a5d1e8ee901e
+      internalID: 204324951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_131
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 164
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f057267e76f84c2468e5863e89f8fd9e
+      internalID: -1505766222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_132
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 164
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50a5725853e9cb429f58d78a1de06f1
+      internalID: -987969378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_133
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 164
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8ef98b340a3f84c9c52237849b1b27
+      internalID: 1940996133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_134
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 164
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2624729151bda42a02706feaccda8f
+      internalID: 1598463383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_135
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 164
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d352e7662dcb8a42ba5e83edb305fc7
+      internalID: -774869343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_136
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 164
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9309c1c65cb8a4747a36f3e14053ae40
+      internalID: -215725985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_137
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 164
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a031f8fff970840a38a8679406a855
+      internalID: 1426276990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_138
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 164
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500258215b96ad945bf665cd657037a1
+      internalID: 1627393227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_139
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 164
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c77e5c01f4369f4d84d81be2f1a735b
+      internalID: -357626799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_140
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 169
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09dfcff17f736c94d8840c357827591d
+      internalID: 729984377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_141
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 169
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 531da8d5309445d4c973c7a5a9863f48
+      internalID: 1239733892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_142
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 169
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01f92c64e5c98a4aa8a6c4b91df151a
+      internalID: -772643565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_143
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 169
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0644ae5c5687efe4bb66e58f7874de6e
+      internalID: 1144650805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_144
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 169
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f9767ace1858c47aaa468208d62571
+      internalID: -645658972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_145
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 169
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b7afee667158a4dacaaba0b03be752
+      internalID: 251261173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_146
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 169
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22cff607b3dbd34eb5fa82b1d26c17e
+      internalID: 326215523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_147
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 169
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d84bc3578f8e304abece5a524575ae6
+      internalID: 1952634122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_148
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 174
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb4136a5c747ba645b1d42b6f6e246da
+      internalID: 1259515438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_149
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 174
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90bba33579cda4843b404056c31bec5f
+      internalID: -1584330487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_150
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 174
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1bb8990fd1ed094c8674c6b669d8f74
+      internalID: -894636042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_151
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 174
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235603c13f2f1a44b9833221bc427e76
+      internalID: 627660781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_152
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 138
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e19103e3e920c4a8fbdd02f9373424
+      internalID: 492164082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_153
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 138
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd2c6bf6d3eda743905965d5833fdeb
+      internalID: -1957369510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_154
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 138
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fec848905dfdf8499a049bf8132a394
+      internalID: 129720790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_155
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 138
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72565f5aaccf16b4883c49988da8cd84
+      internalID: -2013213399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_156
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 138
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8daf192e9dd0a3418d41ba579390b96
+      internalID: -1250364088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_157
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 138
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119d2d6e116e7db4f8f13a66ca68d5aa
+      internalID: -408172773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_158
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 138
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8dd3bf20674a114793984ae35d7278d
+      internalID: 485277414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_159
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 138
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29a708111b2e9341ac9ff6389373338
+      internalID: -421312867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_160
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 155
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2376e66d727b99d4da80bde962f39408
+      internalID: -653749326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_161
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 155
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7fb419ba2d71047a21d7a2398556b3
+      internalID: -362478066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_162
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 155
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8419545cc9b5a4fb9617f1e4f7b5a8
+      internalID: -1509487376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_163
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 155
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eeec218ba1eda64495e53a86f19f87d
+      internalID: -331800087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_164
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 155
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2f243f6e43050409b0d25fdb69d8b1
+      internalID: 1298110883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_165
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 155
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7243178c44ae37a4c98c97901f6e2ecc
+      internalID: 616304914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_166
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 155
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319b60a486e331b47a2b6c264570bcdd
+      internalID: -1990899088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_167
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 155
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187c261598273ce4fae487b72a2aa70d
+      internalID: -709343619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_168
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 140
+        width: 42
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24dd385831699e4186f88066795659b
+      internalID: -474820543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_169
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 140
+        width: 51
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040ddd5c7aa43274a9116a4bf68dd2b2
+      internalID: 958354370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_170
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 140
+        width: 43
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80dcf6127c62d854d93ffdb0859c447a
+      internalID: -644549698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_171
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 129
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9098901f0b9e55449a831f837133e18
+      internalID: 296241796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_172
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 129
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4feb077be07ed474a89810c5b1468abd
+      internalID: 1117700563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_173
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 128
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da0f268040d6a34fa3a6a759ca33766
+      internalID: 1550665501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_174
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 128
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e2bead5369c604191a2330f43b274c
+      internalID: 159442768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_175
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 129
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3079d9ea37860e48ad2f290550bfe34
+      internalID: 1774970998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_176
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 129
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8949c704532da4c993d1cce0116958
+      internalID: -1021443271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_177
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 128
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce09b82127d2754439566749af2cf639
+      internalID: 797439515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_178
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 128
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff02cb3c1a342a74992c302179770650
+      internalID: 626173312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_179
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 120
+        width: 42
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1efe8960508844caa1331744c75520
+      internalID: -1078429141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_180
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 120
+        width: 51
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951501b1e05a2374fa3c5718c981a2bd
+      internalID: -576169796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_181
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 120
+        width: 43
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c33006d8e884274a9c39cba622833a2
+      internalID: -577786956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_182
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 107
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6790e9e7ea0bf844a99b017c1b8e9aca
+      internalID: 1309522099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_183
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 107
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef796c3c630c72944a6dd9669b201cd4
+      internalID: -1184660963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_184
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 108
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd251ce1e02ef84390607fb781b7feb
+      internalID: -682953676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_185
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 107
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17c1df69028bbb4a9f821bdcdbb93b8
+      internalID: -876090663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_186
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 107
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d355c30914f7842b55b25f95593a30
+      internalID: -276360704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_187
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 107
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73356f69661c63f4dba6fd7b30759add
+      internalID: -837848857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_188
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 107
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb6fb01c43ad0742b67625b4ded277b
+      internalID: 1717095098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_189
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 107
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794e956eb0fc26045baaca8a25fd7d5c
+      internalID: 1076792259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_190
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 107
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def7e6f40be34c142b89b312d21e677b
+      internalID: -1605773242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_191
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 107
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f8df4381cda6d4f8db020ca9484948
+      internalID: -61744160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_192
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 115
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8771662d824260d479f9055a998e16c7
+      internalID: 1285072546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_193
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 115
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b13e7175a484b469d46af2e456b732
+      internalID: -1961401365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_194
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 114
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a9da3573481cc449aed6c2e225b8a9
+      internalID: -1140188452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_195
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 114
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ffa27c14fa63b8439ccc63c5e1d584e
+      internalID: 467129158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_196
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 115
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eab5f7197d751146bacbb3859147b32
+      internalID: 79867799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_197
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 115
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e40732a0f972e47a423f9a66b89843
+      internalID: -735567558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_198
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 114
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8b15d3b132c8d47967fbfdbe0f416b
+      internalID: 1694539358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_199
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 114
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731ce2c193da1174fa1621c9a358b59e
+      internalID: 823100315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_200
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 88
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d478c963a40034497f771f38768044
+      internalID: -1580627240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_201
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 88
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c1c6989e123c148b51fe894d2b79cd
+      internalID: 1545144374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_202
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 88
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b5785de8ea22964fb0bc53e0c69317e
+      internalID: 1002798942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_203
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 88
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db69b2718a6d35478a12c36328c8588
+      internalID: 2020149401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_204
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 88
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf402b3f048d694c9162596f24780d8
+      internalID: 627278331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_205
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 88
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6782f6c96bd2c30429d3129f4a84ae2e
+      internalID: -277663658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_206
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 88
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb621c339ca5d4d459711b07f8f6e4e3
+      internalID: -1022647119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_207
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 88
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92b5e42cef7e724db2d3661d3e878fe
+      internalID: -707487797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_208
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 96
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dcfa1c5bc68ef148a5030d1a94f1351
+      internalID: -964964069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_209
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 96
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8936732028608c48b73b775431a70c1
+      internalID: -999386608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_210
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 95
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594f1a52862ce574b96c677b95fc615c
+      internalID: -347598465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_211
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 95
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b665eb22d72f3a4d90bfcff7f929e1f
+      internalID: 2108720681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_212
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 96
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5040e6f7004a5429dee815a331ec75
+      internalID: -423001253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_213
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 96
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fdd8485388a59f408686b1dc2e7f636
+      internalID: 2102685055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_214
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 95
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac1dc6b881b5bb4585d33e13e72c039
+      internalID: -569859678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_215
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 95
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c347c1b2bd1a4c248883e8674736823b
+      internalID: 1382421107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_216
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 92
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad75e007ad080374695cb574d96d4cdd
+      internalID: 1006042683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_217
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 92
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb6e7b4f596a43458c1cf3282c2bc3b
+      internalID: 935620312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_218
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 92
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5ca9e0e0727b94993ad14dbfd0df94
+      internalID: 1359205640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_219
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 82
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0389059a95ac94fa08264f862a79f3
+      internalID: 1869400289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_220
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 82
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a045fae6afb6a489e811a3d932efe0
+      internalID: 673565976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_221
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 81
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12987815627aa748a19c3404eee53b8
+      internalID: 230533255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_222
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 81
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b33e7ddbb6ac394dafed89abd28c8d7
+      internalID: 660305670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_223
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 82
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293855dfe2076094a81bc2500c69f7d3
+      internalID: 990587430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_224
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 82
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd044b37ac1cd354592dbac5650c30d8
+      internalID: -445550708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_225
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 81
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0ec4911b9fd894ca8a4ae2e42501a8
+      internalID: -968571476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_226
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 81
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2125cc4842d25c459afe9658293f5fe
+      internalID: 1682569251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_227
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 72
+        width: 64
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10f562248d1f03459d28fa6aac22ca3
+      internalID: -1102966666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_228
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 72
+        width: 64
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7761132b9168a34fb78d858abe40e25
+      internalID: 1254564693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_229
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 72
+        width: 64
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70ac88cf94332549aebf9b67b9e9287
+      internalID: -329988137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_230
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 44
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703b82cd081229345aed53a526436c10
+      internalID: -1262656752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_231
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 44
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e8c2a8b2e67e74ab8038d1ec1bb318
+      internalID: 1716999374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_232
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 44
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8c1a090da6a474689c9757b94b6d12
+      internalID: 120484813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_233
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 44
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07bdecc0b2073a74ea9b41b756f3d619
+      internalID: 1899448792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_234
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 24
+        width: 64
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9315ffb5ede7e4492b30e5f20dbb4f
+      internalID: 73959479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_235
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 24
+        width: 64
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ebf8d9b0cb1faa4682b61b2abfb1fee
+      internalID: 374660191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_236
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 24
+        width: 64
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a63e526ab0739d4bb67092d2276b722
+      internalID: 1881675740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAllOnscreenKeyControlls_237
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 24
+        width: 64
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9ecedf846faba4e82cc254fb5b8ba6
+      internalID: -2116285043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SpriteSheetAllOnscreenKeyControlls_158: 485277414
+      SpriteSheetAllOnscreenKeyControlls_233: 1899448792
+      SpriteSheetAllOnscreenKeyControlls_191: -61744160
+      SpriteSheetAllOnscreenKeyControlls_49: -889462192
+      SpriteSheetAllOnscreenKeyControlls_205: -277663658
+      SpriteSheetAllOnscreenKeyControlls_148: 1259515438
+      SpriteSheetAllOnscreenKeyControlls_107: -913848943
+      SpriteSheetAllOnscreenKeyControlls_159: -421312867
+      SpriteSheetAllOnscreenKeyControlls_45: 2082175320
+      SpriteSheetAllOnscreenKeyControlls_141: 1239733892
+      SpriteSheetAllOnscreenKeyControlls_200: -1580627240
+      SpriteSheetAllOnscreenKeyControlls_197: -735567558
+      SpriteSheetAllOnscreenKeyControlls_211: 2108720681
+      SpriteSheetAllOnscreenKeyControlls_97: -1902560075
+      SpriteSheetAllOnscreenKeyControlls_35: 554633948
+      SpriteSheetAllOnscreenKeyControlls_222: 660305670
+      SpriteSheetAllOnscreenKeyControlls_140: 729984377
+      SpriteSheetAllOnscreenKeyControlls_59: -2081961902
+      SpriteSheetAllOnscreenKeyControlls_13: -182651644
+      SpriteSheetAllOnscreenKeyControlls_26: -1026437617
+      SpriteSheetAllOnscreenKeyControlls_232: 120484813
+      SpriteSheetAllOnscreenKeyControlls_52: 1597351174
+      SpriteSheetAllOnscreenKeyControlls_16: -407500262
+      SpriteSheetAllOnscreenKeyControlls_60: -1174875778
+      SpriteSheetAllOnscreenKeyControlls_63: 539292615
+      SpriteSheetAllOnscreenKeyControlls_117: 1675099229
+      SpriteSheetAllOnscreenKeyControlls_31: -1944168007
+      SpriteSheetAllOnscreenKeyControlls_150: -894636042
+      SpriteSheetAllOnscreenKeyControlls_212: -423001253
+      SpriteSheetAllOnscreenKeyControlls_73: -345969476
+      SpriteSheetAllOnscreenKeyControlls_235: 374660191
+      SpriteSheetAllOnscreenKeyControlls_130: 204324951
+      SpriteSheetAllOnscreenKeyControlls_201: 1545144374
+      SpriteSheetAllOnscreenKeyControlls_147: 1952634122
+      SpriteSheetAllOnscreenKeyControlls_182: 1309522099
+      SpriteSheetAllOnscreenKeyControlls_75: -318701803
+      SpriteSheetAllOnscreenKeyControlls_76: -1627871649
+      SpriteSheetAllOnscreenKeyControlls_94: -1059476395
+      SpriteSheetAllOnscreenKeyControlls_129: -1708930152
+      SpriteSheetAllOnscreenKeyControlls_215: 1382421107
+      SpriteSheetAllOnscreenKeyControlls_100: -1448752707
+      SpriteSheetAllOnscreenKeyControlls_137: 1426276990
+      SpriteSheetAllOnscreenKeyControlls_72: 1828199113
+      SpriteSheetAllOnscreenKeyControlls_175: 1774970998
+      SpriteSheetAllOnscreenKeyControlls_111: 1694974194
+      SpriteSheetAllOnscreenKeyControlls_37: 1299779026
+      SpriteSheetAllOnscreenKeyControlls_96: 831050000
+      SpriteSheetAllOnscreenKeyControlls_163: -331800087
+      SpriteSheetAllOnscreenKeyControlls_114: 755462585
+      SpriteSheetAllOnscreenKeyControlls_93: 1489423529
+      SpriteSheetAllOnscreenKeyControlls_151: 627660781
+      SpriteSheetAllOnscreenKeyControlls_65: 1408981980
+      SpriteSheetAllOnscreenKeyControlls_207: -707487797
+      SpriteSheetAllOnscreenKeyControlls_176: -1021443271
+      SpriteSheetAllOnscreenKeyControlls_160: -653749326
+      SpriteSheetAllOnscreenKeyControlls_124: 352200140
+      SpriteSheetAllOnscreenKeyControlls_69: 117593758
+      SpriteSheetAllOnscreenKeyControlls_46: 752388356
+      SpriteSheetAllOnscreenKeyControlls_21: 1496581912
+      SpriteSheetAllOnscreenKeyControlls_44: 32820109
+      SpriteSheetAllOnscreenKeyControlls_11: -1537297459
+      SpriteSheetAllOnscreenKeyControlls_157: -408172773
+      SpriteSheetAllOnscreenKeyControlls_86: 120091437
+      SpriteSheetAllOnscreenKeyControlls_169: 958354370
+      SpriteSheetAllOnscreenKeyControlls_192: 1285072546
+      SpriteSheetAllOnscreenKeyControlls_104: 733787581
+      SpriteSheetAllOnscreenKeyControlls_19: 2017419865
+      SpriteSheetAllOnscreenKeyControlls_164: 1298110883
+      SpriteSheetAllOnscreenKeyControlls_83: 1742435944
+      SpriteSheetAllOnscreenKeyControlls_217: 935620312
+      SpriteSheetAllOnscreenKeyControlls_38: -670758556
+      SpriteSheetAllOnscreenKeyControlls_155: -2013213399
+      SpriteSheetAllOnscreenKeyControlls_9: -394187506
+      SpriteSheetAllOnscreenKeyControlls_51: -1621592978
+      SpriteSheetAllOnscreenKeyControlls_136: -215725985
+      SpriteSheetAllOnscreenKeyControlls_79: 1974989016
+      SpriteSheetAllOnscreenKeyControlls_92: 152315666
+      SpriteSheetAllOnscreenKeyControlls_47: -1498546752
+      SpriteSheetAllOnscreenKeyControlls_17: 1835222986
+      SpriteSheetAllOnscreenKeyControlls_30: 32933433
+      SpriteSheetAllOnscreenKeyControlls_10: 735619163
+      SpriteSheetAllOnscreenKeyControlls_145: 251261173
+      SpriteSheetAllOnscreenKeyControlls_34: -767382481
+      SpriteSheetAllOnscreenKeyControlls_181: -577786956
+      SpriteSheetAllOnscreenKeyControlls_146: 326215523
+      SpriteSheetAllOnscreenKeyControlls_190: -1605773242
+      SpriteSheetAllOnscreenKeyControlls_110: 1456801226
+      SpriteSheetAllOnscreenKeyControlls_20: 1214765808
+      SpriteSheetAllOnscreenKeyControlls_236: 1881675740
+      SpriteSheetAllOnscreenKeyControlls_3: 499989014
+      SpriteSheetAllOnscreenKeyControlls_194: -1140188452
+      SpriteSheetAllOnscreenKeyControlls_187: -837848857
+      SpriteSheetAllOnscreenKeyControlls_12: -1766093574
+      SpriteSheetAllOnscreenKeyControlls_223: 990587430
+      SpriteSheetAllOnscreenKeyControlls_56: -463372486
+      SpriteSheetAllOnscreenKeyControlls_108: -582150539
+      SpriteSheetAllOnscreenKeyControlls_237: -2116285043
+      SpriteSheetAllOnscreenKeyControlls_88: 297968183
+      SpriteSheetAllOnscreenKeyControlls_105: 1840000035
+      SpriteSheetAllOnscreenKeyControlls_134: 1598463383
+      SpriteSheetAllOnscreenKeyControlls_95: 1776963415
+      SpriteSheetAllOnscreenKeyControlls_8: 498381234
+      SpriteSheetAllOnscreenKeyControlls_185: -876090663
+      SpriteSheetAllOnscreenKeyControlls_152: 492164082
+      SpriteSheetAllOnscreenKeyControlls_115: -704978061
+      SpriteSheetAllOnscreenKeyControlls_5: 696619178
+      SpriteSheetAllOnscreenKeyControlls_199: 823100315
+      SpriteSheetAllOnscreenKeyControlls_183: -1184660963
+      SpriteSheetAllOnscreenKeyControlls_179: -1078429141
+      SpriteSheetAllOnscreenKeyControlls_113: -249466101
+      SpriteSheetAllOnscreenKeyControlls_78: -994837917
+      SpriteSheetAllOnscreenKeyControlls_168: -474820543
+      SpriteSheetAllOnscreenKeyControlls_27: -894787673
+      SpriteSheetAllOnscreenKeyControlls_171: 296241796
+      SpriteSheetAllOnscreenKeyControlls_55: -791106341
+      SpriteSheetAllOnscreenKeyControlls_112: -2025887898
+      SpriteSheetAllOnscreenKeyControlls_208: -964964069
+      SpriteSheetAllOnscreenKeyControlls_109: 248418099
+      SpriteSheetAllOnscreenKeyControlls_62: 991050260
+      SpriteSheetAllOnscreenKeyControlls_70: -361569189
+      SpriteSheetAllOnscreenKeyControlls_202: 1002798942
+      SpriteSheetAllOnscreenKeyControlls_220: 673565976
+      SpriteSheetAllOnscreenKeyControlls_4: -336134533
+      SpriteSheetAllOnscreenKeyControlls_224: -445550708
+      SpriteSheetAllOnscreenKeyControlls_101: 460511203
+      SpriteSheetAllOnscreenKeyControlls_144: -645658972
+      SpriteSheetAllOnscreenKeyControlls_64: 1543278402
+      SpriteSheetAllOnscreenKeyControlls_161: -362478066
+      SpriteSheetAllOnscreenKeyControlls_91: 1857624532
+      SpriteSheetAllOnscreenKeyControlls_149: -1584330487
+      SpriteSheetAllOnscreenKeyControlls_98: -1132466964
+      SpriteSheetAllOnscreenKeyControlls_118: 608512375
+      SpriteSheetAllOnscreenKeyControlls_221: 230533255
+      SpriteSheetAllOnscreenKeyControlls_228: 1254564693
+      SpriteSheetAllOnscreenKeyControlls_89: 957137505
+      SpriteSheetAllOnscreenKeyControlls_213: 2102685055
+      SpriteSheetAllOnscreenKeyControlls_214: -569859678
+      SpriteSheetAllOnscreenKeyControlls_170: -644549698
+      SpriteSheetAllOnscreenKeyControlls_0: -1443795009
+      SpriteSheetAllOnscreenKeyControlls_2: 1110361357
+      SpriteSheetAllOnscreenKeyControlls_67: -1087401560
+      SpriteSheetAllOnscreenKeyControlls_39: -378539808
+      SpriteSheetAllOnscreenKeyControlls_68: 1848742047
+      SpriteSheetAllOnscreenKeyControlls_14: 537718015
+      SpriteSheetAllOnscreenKeyControlls_99: 774506472
+      SpriteSheetAllOnscreenKeyControlls_133: 1940996133
+      SpriteSheetAllOnscreenKeyControlls_22: 548441103
+      SpriteSheetAllOnscreenKeyControlls_41: 463630984
+      SpriteSheetAllOnscreenKeyControlls_48: -396890230
+      SpriteSheetAllOnscreenKeyControlls_142: -772643565
+      SpriteSheetAllOnscreenKeyControlls_226: 1682569251
+      SpriteSheetAllOnscreenKeyControlls_81: -1119788152
+      SpriteSheetAllOnscreenKeyControlls_28: -1771970646
+      SpriteSheetAllOnscreenKeyControlls_120: -1359394592
+      SpriteSheetAllOnscreenKeyControlls_203: 2020149401
+      SpriteSheetAllOnscreenKeyControlls_166: -1990899088
+      SpriteSheetAllOnscreenKeyControlls_138: 1627393227
+      SpriteSheetAllOnscreenKeyControlls_40: 1143855435
+      SpriteSheetAllOnscreenKeyControlls_84: -165412811
+      SpriteSheetAllOnscreenKeyControlls_77: -616086967
+      SpriteSheetAllOnscreenKeyControlls_210: -347598465
+      SpriteSheetAllOnscreenKeyControlls_106: 1585477626
+      SpriteSheetAllOnscreenKeyControlls_123: -669735297
+      SpriteSheetAllOnscreenKeyControlls_143: 1144650805
+      SpriteSheetAllOnscreenKeyControlls_43: 1332527266
+      SpriteSheetAllOnscreenKeyControlls_119: -1285131118
+      SpriteSheetAllOnscreenKeyControlls_189: 1076792259
+      SpriteSheetAllOnscreenKeyControlls_177: 797439515
+      SpriteSheetAllOnscreenKeyControlls_23: -1759517158
+      SpriteSheetAllOnscreenKeyControlls_36: 82646489
+      SpriteSheetAllOnscreenKeyControlls_132: -987969378
+      SpriteSheetAllOnscreenKeyControlls_90: 1056833099
+      SpriteSheetAllOnscreenKeyControlls_33: -947410008
+      SpriteSheetAllOnscreenKeyControlls_196: 79867799
+      SpriteSheetAllOnscreenKeyControlls_85: -1810504509
+      SpriteSheetAllOnscreenKeyControlls_216: 1006042683
+      SpriteSheetAllOnscreenKeyControlls_198: 1694539358
+      SpriteSheetAllOnscreenKeyControlls_156: -1250364088
+      SpriteSheetAllOnscreenKeyControlls_231: 1716999374
+      SpriteSheetAllOnscreenKeyControlls_32: 1407532043
+      SpriteSheetAllOnscreenKeyControlls_127: 1987048390
+      SpriteSheetAllOnscreenKeyControlls_29: 1176601004
+      SpriteSheetAllOnscreenKeyControlls_80: -1866884255
+      SpriteSheetAllOnscreenKeyControlls_57: 2018459662
+      SpriteSheetAllOnscreenKeyControlls_195: 467129158
+      SpriteSheetAllOnscreenKeyControlls_82: 271471388
+      SpriteSheetAllOnscreenKeyControlls_162: -1509487376
+      SpriteSheetAllOnscreenKeyControlls_218: 1359205640
+      SpriteSheetAllOnscreenKeyControlls_102: -88609509
+      SpriteSheetAllOnscreenKeyControlls_165: 616304914
+      SpriteSheetAllOnscreenKeyControlls_15: -1218167301
+      SpriteSheetAllOnscreenKeyControlls_234: 73959479
+      SpriteSheetAllOnscreenKeyControlls_1: 1979838756
+      SpriteSheetAllOnscreenKeyControlls_126: 75012315
+      SpriteSheetAllOnscreenKeyControlls_54: -1278373473
+      SpriteSheetAllOnscreenKeyControlls_131: -1505766222
+      SpriteSheetAllOnscreenKeyControlls_53: 311999339
+      SpriteSheetAllOnscreenKeyControlls_139: -357626799
+      SpriteSheetAllOnscreenKeyControlls_18: 1148262908
+      SpriteSheetAllOnscreenKeyControlls_193: -1961401365
+      SpriteSheetAllOnscreenKeyControlls_180: -576169796
+      SpriteSheetAllOnscreenKeyControlls_61: 1097496873
+      SpriteSheetAllOnscreenKeyControlls_178: 626173312
+      SpriteSheetAllOnscreenKeyControlls_188: 1717095098
+      SpriteSheetAllOnscreenKeyControlls_66: 1754730922
+      SpriteSheetAllOnscreenKeyControlls_204: 627278331
+      SpriteSheetAllOnscreenKeyControlls_230: -1262656752
+      SpriteSheetAllOnscreenKeyControlls_24: -351042147
+      SpriteSheetAllOnscreenKeyControlls_58: 1048008669
+      SpriteSheetAllOnscreenKeyControlls_135: -774869343
+      SpriteSheetAllOnscreenKeyControlls_42: 743765723
+      SpriteSheetAllOnscreenKeyControlls_173: 1550665501
+      SpriteSheetAllOnscreenKeyControlls_128: -644731712
+      SpriteSheetAllOnscreenKeyControlls_50: 731076821
+      SpriteSheetAllOnscreenKeyControlls_229: -329988137
+      SpriteSheetAllOnscreenKeyControlls_184: -682953676
+      SpriteSheetAllOnscreenKeyControlls_6: 747839866
+      SpriteSheetAllOnscreenKeyControlls_125: -511493301
+      SpriteSheetAllOnscreenKeyControlls_74: -1655824779
+      SpriteSheetAllOnscreenKeyControlls_122: 427871341
+      SpriteSheetAllOnscreenKeyControlls_153: -1957369510
+      SpriteSheetAllOnscreenKeyControlls_167: -709343619
+      SpriteSheetAllOnscreenKeyControlls_174: 159442768
+      SpriteSheetAllOnscreenKeyControlls_87: 386676726
+      SpriteSheetAllOnscreenKeyControlls_7: -1530457939
+      SpriteSheetAllOnscreenKeyControlls_186: -276360704
+      SpriteSheetAllOnscreenKeyControlls_227: -1102966666
+      SpriteSheetAllOnscreenKeyControlls_219: 1869400289
+      SpriteSheetAllOnscreenKeyControlls_172: 1117700563
+      SpriteSheetAllOnscreenKeyControlls_116: -1483838723
+      SpriteSheetAllOnscreenKeyControlls_103: 236589331
+      SpriteSheetAllOnscreenKeyControlls_225: -968571476
+      SpriteSheetAllOnscreenKeyControlls_71: -1822557905
+      SpriteSheetAllOnscreenKeyControlls_25: -2062907291
+      SpriteSheetAllOnscreenKeyControlls_206: -1022647119
+      SpriteSheetAllOnscreenKeyControlls_209: -999386608
+      SpriteSheetAllOnscreenKeyControlls_154: 129720790
+      SpriteSheetAllOnscreenKeyControlls_121: 398911872
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
