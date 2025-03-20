@@ -1,26 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement; //¾À ÀÛ¾÷À» À§ÇØ ³Ö¾îµĞ ³»¿ë
-using UnityEngine.UI; //UIÀÛ¾÷À» À§ÇØ¼­ ³Ö¾î¾ß ÇÏ´Â °ª UI¿¡¼­ »ı¼ºÇÑ ¿ÀºêÁ§Æ®ÀÇ ÀÛ¾÷À» ÇÒ ¶§ »ç¿ë
+using UnityEngine.SceneManagement; //ï¿½ï¿½ ï¿½Û¾ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¾ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+using UnityEngine.UI; //UIï¿½Û¾ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ø¼ï¿½ ï¿½Ö¾ï¿½ï¿½ ï¿½Ï´ï¿½ ï¿½ï¿½ UIï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½Û¾ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½
 
-public class GameDirector : MonoBehaviour //°ÔÀÓÀÇ UI,¾ÀÀüÈ¯µî ¸ğµç ¿ÜºÎÀÛ¾÷À» ¸ÃÀº ½ºÅ©¸³Æ®
+public class GameDirector : MonoBehaviour //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ UI,ï¿½ï¿½ï¿½ï¿½È¯ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Üºï¿½ï¿½Û¾ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å©ï¿½ï¿½Æ®
 {
-    public static GameDirector instance; //GameDirector½ºÅ©¸³Æ®ÀÇ ÇÔ¼öµéÀ» È£ÃâÇÏ±â À§ÇÑ instance»ı¼º
-    public Animator anim; //ÇÃ·¹ÀÌÈ­¸é°ú ¸ŞÀÎÈ­¸é ¾Ö´Ï¸ŞÀÌ¼Ç°ªÀ» ¹Ş±â À§ÇÑ ¾Ö´Ï¸ŞÀÌÅÍ
-    public Animator Nextanim; //ÇÃ·¹ÀÌÈ­¸é°ú ¸ŞÀÎÈ­¸é ¾Ö´Ï¸ŞÀÌ¼Ç°ªÀ» ¹Ş±â À§ÇÑ ¾Ö´Ï¸ŞÀÌÅÍ
-    public Animator Clearanim; //Å¬¸®¾îÈ­¸é ¾Ö´Ï¸ŞÀÌ¼Ç°ªÀ» ¹Ş±â À§ÇÑ ¾Ö´Ï¸ŞÀÌÅÍ
-    public Animator Pauseanim; //Á¤ÁöÈ­¸é ¾Ö´Ï¸ŞÀÌ¼Ç°ªÀ» ¹Ş±â À§ÇÑ ¾Ö´Ï¸ŞÀÌÅÍ
-    public List<GameObject> lifeImg; //HpUI·Î °ÔÀÓ ¼Ó ÇÏÆ® ±×¸²ÀÌ µ¥¹ÌÁö ÀÔÀ»¶§¸¶´Ù Áö¿öÁö°Ô ÇÏ±âÀ§ÇÑ ¸®½ºÆ® »ı¼º
+    public static GameDirector instance; //GameDirectorï¿½ï¿½Å©ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½ï¿½ È£ï¿½ï¿½ï¿½Ï±ï¿½ ï¿½ï¿½ï¿½ï¿½ instanceï¿½ï¿½ï¿½ï¿½
+    public Animator anim; //ï¿½Ã·ï¿½ï¿½ï¿½È­ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½È­ï¿½ï¿½ ï¿½Ö´Ï¸ï¿½ï¿½Ì¼Ç°ï¿½ï¿½ï¿½ ï¿½Ş±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´Ï¸ï¿½ï¿½ï¿½ï¿½ï¿½
+    public Animator Nextanim; //ï¿½Ã·ï¿½ï¿½ï¿½È­ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½È­ï¿½ï¿½ ï¿½Ö´Ï¸ï¿½ï¿½Ì¼Ç°ï¿½ï¿½ï¿½ ï¿½Ş±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´Ï¸ï¿½ï¿½ï¿½ï¿½ï¿½
+    public Animator Clearanim; //Å¬ï¿½ï¿½ï¿½ï¿½È­ï¿½ï¿½ ï¿½Ö´Ï¸ï¿½ï¿½Ì¼Ç°ï¿½ï¿½ï¿½ ï¿½Ş±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´Ï¸ï¿½ï¿½ï¿½ï¿½ï¿½
+    public Animator Pauseanim; //ï¿½ï¿½ï¿½ï¿½È­ï¿½ï¿½ ï¿½Ö´Ï¸ï¿½ï¿½Ì¼Ç°ï¿½ï¿½ï¿½ ï¿½Ş±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´Ï¸ï¿½ï¿½ï¿½ï¿½ï¿½
+    public List<GameObject> lifeImg; //HpUIï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½Æ® ï¿½×¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ï±ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½
 
-    private bool isPause = false; //°ÔÀÓÁ¤Áö¸¦ ÀÎ½ÄÇÏ±âÀ§ÇÑ bool°ª false·Î ±âº» ¼³Á¤
+    private bool isPause = false; //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î½ï¿½ï¿½Ï±ï¿½ï¿½ï¿½ï¿½ï¿½ boolï¿½ï¿½ falseï¿½ï¿½ ï¿½âº» ï¿½ï¿½ï¿½ï¿½
 
-    public Text EnemyCounttxt; //UI·Î °ÔÀÓÈ­¸é¿¡ ³²Àº Àû ¼ö¸¦ Ç¥½ÃÇÏ±âÀ§ÇÑ ÅØ½ºÆ® »ı¼º
+    public Text EnemyCounttxt; //UIï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½È­ï¿½é¿¡ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½ï¿½Ï±ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ø½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½
 
     public float Timer;
     public Text Time_text;
 
-    public void Awake() //´ëÃæ ³Ñ±é½Ã´Ù
+    public void Awake() //ï¿½ï¿½ï¿½ï¿½ ï¿½Ñ±ï¿½Ã´ï¿½
     {
         if (instance == null) 
         {
@@ -37,25 +37,30 @@ public class GameDirector : MonoBehaviour //°ÔÀÓÀÇ UI,¾ÀÀüÈ¯µî ¸ğµç ¿ÜºÎÀÛ¾÷À» ¸
 
     private void Start()
     {
-        if (SceneManager.GetActiveScene().buildIndex == 5) //¾À ¹øÈ£°¡ 3¹øÀÌ¸é 
+        if (SceneManager.GetActiveScene().buildIndex == 5) //ï¿½ï¿½ ï¿½ï¿½È£ï¿½ï¿½ 3ï¿½ï¿½ï¿½Ì¸ï¿½ 
         {
-            Invoke("ClearUI", 2); //2ÃÊÈÄ¿¡ ClearUIÇÔ¼ö¸¦ È£ÃâÇÑ´Ù
+            Invoke("ClearUI", 2); //2ï¿½ï¿½ï¿½Ä¿ï¿½ ClearUIï¿½Ô¼ï¿½ï¿½ï¿½ È£ï¿½ï¿½ï¿½Ñ´ï¿½
+        }
+
+        if (Time_text == null)
+        {
+            Time_text = GameObject.Find("TimeText").GetComponent<Text>(); // ë˜ëŠ” TMP_Text
         }
     }
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape)) //esc¹öÆ°À» ´©¸£¸é
+        if (Input.GetKeyDown(KeyCode.Escape)) //escï¿½ï¿½Æ°ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         {
-            if (!isPause) //isPause°¡ false¸é
+            if (!isPause) //isPauseï¿½ï¿½ falseï¿½ï¿½
             {
-                SetPause(); //SetPause()ÇÔ¼ö¸¦ È£Ãâ
-                Invoke("TimeStop", 0.65f); //0.65ÃÊ µÚ¿¡ TimeStopÇÔ¼ö¸¦ È£Ãâ
+                SetPause(); //SetPause()ï¿½Ô¼ï¿½ï¿½ï¿½ È£ï¿½ï¿½
+                Invoke("TimeStop", 0.65f); //0.65ï¿½ï¿½ ï¿½Ú¿ï¿½ TimeStopï¿½Ô¼ï¿½ï¿½ï¿½ È£ï¿½ï¿½
             }
-            else if (isPause) //isPause°¡ true¸é
+            else if (isPause) //isPauseï¿½ï¿½ trueï¿½ï¿½
             {
-                Time.timeScale = 1; //°ÔÀÓ ½Ã°£À» 1·Î ¼³Á¤ = °ÔÀÓÀÌ ¿òÁ÷ÀÎ´Ù
-                Continue(); //Continue()ÇÔ¼ö¸¦ È£Ãâ
+                Time.timeScale = 1; //ï¿½ï¿½ï¿½ï¿½ ï¿½Ã°ï¿½ï¿½ï¿½ 1ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ = ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Î´ï¿½
+                Continue(); //Continue()ï¿½Ô¼ï¿½ï¿½ï¿½ È£ï¿½ï¿½
             }
         }
 
@@ -70,69 +75,69 @@ public class GameDirector : MonoBehaviour //°ÔÀÓÀÇ UI,¾ÀÀüÈ¯µî ¸ğµç ¿ÜºÎÀÛ¾÷À» ¸
         }
     }
 
-    public void SetPause() //PauseUI ¶ç¿ì±â
+    public void SetPause() //PauseUI ï¿½ï¿½ï¿½ï¿½
     {
-        isPause = true; //isPause¸¦ true·Î ¹Ù²Û´Ù
-        Pauseanim.SetBool("isDown", true); //PauseÈ­¸éÀ» ¶ç¿î´Ù.
+        isPause = true; //isPauseï¿½ï¿½ trueï¿½ï¿½ ï¿½Ù²Û´ï¿½
+        Pauseanim.SetBool("isDown", true); //PauseÈ­ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
     }
 
-    public void Continue() //°ÔÀÓ Á¤ÁöÇØÁ¦ ÈÄ PauseUI ¼û±â±â 
+    public void Continue() //ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ PauseUI ï¿½ï¿½ï¿½ï¿½ï¿½ 
     {
-        isPause = false; //isPause¸¦ false·Î ¹Ù²Û´Ù
-        Pauseanim.SetBool("isDown", false);//PauseÈ­¸éÀ» ¼û±â±â.
+        isPause = false; //isPauseï¿½ï¿½ falseï¿½ï¿½ ï¿½Ù²Û´ï¿½
+        Pauseanim.SetBool("isDown", false);//PauseÈ­ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½.
     }
 
-    public void TimeStop() //°ÔÀÓ Á¤Áö ÇÔ¼ö
+    public void TimeStop() //ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ô¼ï¿½
     {
-        Time.timeScale = 0; //°ÔÀÓÀ» Á¤Áö ½ÃÅ²´Ù.
+        Time.timeScale = 0; //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å²ï¿½ï¿½.
     }
 
-    public void Restart() // °ÔÀÓ ÇÃ·¹ÀÌ È­¸éÀ¸·Î ÀÌµ¿ÇÑ´Ù.
+    public void Restart() // ï¿½ï¿½ï¿½ï¿½ ï¿½Ã·ï¿½ï¿½ï¿½ È­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìµï¿½ï¿½Ñ´ï¿½.
     {
-        Time.timeScale = 1; //°ÔÀÓ ½Ã°£À» 1·Î ¼³Á¤ = °ÔÀÓÀÌ ¿òÁ÷ÀÎ´Ù
+        Time.timeScale = 1; //ï¿½ï¿½ï¿½ï¿½ ï¿½Ã°ï¿½ï¿½ï¿½ 1ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ = ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Î´ï¿½
         if (SceneManager.GetActiveScene().buildIndex == 0)
         {
-            SceneManager.LoadScene("GameStage1"); //GameScene = ÇÃ·¹ÀÌÈ­¸é À¸·Î ÀÌµ¿ÇÑ´Ù.
+            SceneManager.LoadScene("GameStage1"); //GameScene = ï¿½Ã·ï¿½ï¿½ï¿½È­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìµï¿½ï¿½Ñ´ï¿½.
         }
         else if(SceneManager.GetActiveScene().buildIndex == 2)
         {
-            SceneManager.LoadScene("GameStage1"); //GameScene = ÇÃ·¹ÀÌÈ­¸é À¸·Î ÀÌµ¿ÇÑ´Ù.
+            SceneManager.LoadScene("GameStage1"); //GameScene = ï¿½Ã·ï¿½ï¿½ï¿½È­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìµï¿½ï¿½Ñ´ï¿½.
         }
         else if (SceneManager.GetActiveScene().buildIndex == 3)
         {
-            SceneManager.LoadScene("GameStage2"); //GameScene = ÇÃ·¹ÀÌÈ­¸é À¸·Î ÀÌµ¿ÇÑ´Ù.
+            SceneManager.LoadScene("GameStage2"); //GameScene = ï¿½Ã·ï¿½ï¿½ï¿½È­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìµï¿½ï¿½Ñ´ï¿½.
         }
         else if (SceneManager.GetActiveScene().buildIndex == 4)
         {
-            SceneManager.LoadScene("GameStage3"); //GameScene = ÇÃ·¹ÀÌÈ­¸é À¸·Î ÀÌµ¿ÇÑ´Ù.
+            SceneManager.LoadScene("GameStage3"); //GameScene = ï¿½Ã·ï¿½ï¿½ï¿½È­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìµï¿½ï¿½Ñ´ï¿½.
         }
         else if (SceneManager.GetActiveScene().buildIndex == 5)
         {
-            SceneManager.LoadScene("GameStage1"); //GameScene = ÇÃ·¹ÀÌÈ­¸é À¸·Î ÀÌµ¿ÇÑ´Ù.
+            SceneManager.LoadScene("GameStage1"); //GameScene = ï¿½Ã·ï¿½ï¿½ï¿½È­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìµï¿½ï¿½Ñ´ï¿½.
         }
     }
 
-    public void NextSTAGE() // °ÔÀÓ ÇÃ·¹ÀÌ È­¸éÀ¸·Î ÀÌµ¿ÇÑ´Ù.
+    public void NextSTAGE() // ï¿½ï¿½ï¿½ï¿½ ï¿½Ã·ï¿½ï¿½ï¿½ È­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìµï¿½ï¿½Ñ´ï¿½.
     {
-        Time.timeScale = 1; //°ÔÀÓ ½Ã°£À» 1·Î ¼³Á¤ = °ÔÀÓÀÌ ¿òÁ÷ÀÎ´Ù
+        Time.timeScale = 1; //ï¿½ï¿½ï¿½ï¿½ ï¿½Ã°ï¿½ï¿½ï¿½ 1ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ = ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Î´ï¿½
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
-    public void TutorialScene() //°ÔÀÓ Æ©Åä¸®¾ó È­¸éÀ¸·Î ÀÌµ¿ÇÑ´Ù.
+    public void TutorialScene() //ï¿½ï¿½ï¿½ï¿½ Æ©ï¿½ä¸®ï¿½ï¿½ È­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìµï¿½ï¿½Ñ´ï¿½.
     {
-        Time.timeScale = 1; //°ÔÀÓ ½Ã°£À» 1·Î ¼³Á¤ = °ÔÀÓÀÌ ¿òÁ÷ÀÎ´Ù
-        SceneManager.LoadScene("Tutorial"); //Tutorial = Æ©Åä¸®¾óÈ­¸é À¸·Î ÀÌµ¿ÇÑ´Ù.
+        Time.timeScale = 1; //ï¿½ï¿½ï¿½ï¿½ ï¿½Ã°ï¿½ï¿½ï¿½ 1ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ = ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Î´ï¿½
+        SceneManager.LoadScene("Tutorial"); //Tutorial = Æ©ï¿½ä¸®ï¿½ï¿½È­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìµï¿½ï¿½Ñ´ï¿½.
     }
 
-    public void StartMenu() //¸ŞÀÎÈ­¸éÀ¸·Î ÀÌµ¿
+    public void StartMenu() //ï¿½ï¿½ï¿½ï¿½È­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìµï¿½
     {
-        Time.timeScale = 1; //°ÔÀÓ ½Ã°£À» 1·Î ¼³Á¤ = °ÔÀÓÀÌ ¿òÁ÷ÀÎ´Ù
-        SceneManager.LoadScene("StartMenu"); //StartMenu = ¸ŞÀÎÈ­¸é À¸·Î ÀÌµ¿ÇÑ´Ù.
+        Time.timeScale = 1; //ï¿½ï¿½ï¿½ï¿½ ï¿½Ã°ï¿½ï¿½ï¿½ 1ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ = ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Î´ï¿½
+        SceneManager.LoadScene("StartMenu"); //StartMenu = ï¿½ï¿½ï¿½ï¿½È­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìµï¿½ï¿½Ñ´ï¿½.
     }
 
-    public void Gameover() //°ÔÀÓ¿À¹ö È£Ãâ ÇÔ¼ö 
+    public void Gameover() //ï¿½ï¿½ï¿½Ó¿ï¿½ï¿½ï¿½ È£ï¿½ï¿½ ï¿½Ô¼ï¿½ 
     {
-        anim.SetBool("isShow", true); //°ÔÀÓ¿À¹ö UI¸¦ È£ÃâÇÑ´Ù.
+        anim.SetBool("isShow", true); //ï¿½ï¿½ï¿½Ó¿ï¿½ï¿½ï¿½ UIï¿½ï¿½ È£ï¿½ï¿½ï¿½Ñ´ï¿½.
         Invoke("TimeStop", 1f);
     }
 
@@ -142,19 +147,19 @@ public class GameDirector : MonoBehaviour //°ÔÀÓÀÇ UI,¾ÀÀüÈ¯µî ¸ğµç ¿ÜºÎÀÛ¾÷À» ¸
         Invoke("TimeStop", 1f);
     }
 
-    public void Gameclear() //°ÔÀÓ Å¬¸®¾î ¾ÀÀ¸·Î ÀÌµ¿ÇÑ´Ù
+    public void Gameclear() //ï¿½ï¿½ï¿½ï¿½ Å¬ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìµï¿½ï¿½Ñ´ï¿½
     {
-        ScreenManager._instance._LoadScreenTexture(); //Èå¸´ÇØÁ³´Ù°¡ È­¸é ÀÌµ¿ÇÏ´Â Dissolve½ºÅ©¸³Æ®¿Í ScreenManager½ºÅ©¸³Æ®¸¦ ÀÌ¿ëÇÑ ±â´É È£Ãâ
-        SceneManager.LoadScene("GameClearScene"); //GameClearScene = Å¬¸®¾îÈ­¸é À¸·Î ÀÌµ¿ÇÑ´Ù.
+        ScreenManager._instance._LoadScreenTexture(); //ï¿½å¸´ï¿½ï¿½ï¿½ï¿½ï¿½Ù°ï¿½ È­ï¿½ï¿½ ï¿½Ìµï¿½ï¿½Ï´ï¿½ Dissolveï¿½ï¿½Å©ï¿½ï¿½Æ®ï¿½ï¿½ ScreenManagerï¿½ï¿½Å©ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½Ì¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ È£ï¿½ï¿½
+        SceneManager.LoadScene("GameClearScene"); //GameClearScene = Å¬ï¿½ï¿½ï¿½ï¿½È­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìµï¿½ï¿½Ñ´ï¿½.
     }
 
-    public void ClearUI() //°ÔÀÓ Å¬¸®¾î ½Ã Å¬¸®¾îUI¸¦ »ı¼º
+    public void ClearUI() //ï¿½ï¿½ï¿½ï¿½ Å¬ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ Å¬ï¿½ï¿½ï¿½ï¿½UIï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
     {
-        Clearanim.SetBool("isClearShow", true); //Å¬¸®¾îUI ¾Ö´Ï¸ŞÀÌ¼Ç È£Ãâ
+        Clearanim.SetBool("isClearShow", true); //Å¬ï¿½ï¿½ï¿½ï¿½UI ï¿½Ö´Ï¸ï¿½ï¿½Ì¼ï¿½ È£ï¿½ï¿½
     }
 
-    public void EnemyCount(int max, int count) //UIÈ­¸é¿¡ ³²Àº Àû ¼ö¸¦ º¸¿©ÁÖ´Â ÇÔ¼ö
+    public void EnemyCount(int max, int count) //UIÈ­ï¿½é¿¡ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ö´ï¿½ ï¿½Ô¼ï¿½
     {
-        EnemyCounttxt.text = max.ToString() + " / " + count.ToString(); //EnemyCounttxt.text¿¡ ÃÖ´ë Àû »ı¼º °³¼ö / ³²ÀºÀû°ªÀ» º¸¿©ÁØ´Ù count´Â ´Ù¸¥ ½ºÅ©¸³Æ®ÀÇ int °ªÀ» ¹Ş±â À§ÇØ ³Ö¾îµĞ ¸Å°³º¯¼ö
+        EnemyCounttxt.text = max.ToString() + " / " + count.ToString(); //EnemyCounttxt.textï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ / ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ø´ï¿½ countï¿½ï¿½ ï¿½Ù¸ï¿½ ï¿½ï¿½Å©ï¿½ï¿½Æ®ï¿½ï¿½ int ï¿½ï¿½ï¿½ï¿½ ï¿½Ş±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¾ï¿½ï¿½ ï¿½Å°ï¿½ï¿½ï¿½ï¿½ï¿½
     }
 }
